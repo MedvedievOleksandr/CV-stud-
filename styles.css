@@ -1,0 +1,86 @@
+html, body {
+  margin: 0;
+  box-sizing: border-box;
+  border-color: #b2b5b7;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+
+.container {
+  margin: auto;
+  max-width: 960px;
+}
+
+.avatar {
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 12px rgba(0,0,0,0.5);
+  margin-right: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  
+}
+
+.info {
+  display: flex;
+  background-color: #accbdf;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.info-text {
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+section {
+  margin-top: 20px;
+}
+
+.info-text p {
+  margin-bottom: 5px;
+}
+
+.myTasks {
+  border-radius: 20px;
+  background-color: #acdfbc;
+  padding: 10px 10px;
+  margin-bottom: 15px;
+  font-style: 18px;
+}
+
+.studTime {
+  border-radius: 20px;
+  background-color: #d1dfac;
+  padding: 10px 10px 30px;
+}
+
+.studTimeTime {
+  display: flex;
+  justify-content: center;
+}
+
+.studTimeDay {
+  margin-right: 40px;
+}
+
+.contacts {
+  text-align: center;
+  background-color: #d6bcbc;
+  border-radius: 20px;
+  padding: 10px 10px 30px;
+  margin-bottom: 30px;
+}
+
+a {
+  margin: 15px;
+}
